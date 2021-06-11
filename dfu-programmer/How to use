@@ -1,0 +1,18 @@
+Open cmd
+go to File place with cd
+
+
+[Erasing UNO firmware and writing keyboard firmware]
+
+dfu-programmer atmega16u2 erase
+dfu-programmer atmega16u2 flash Arduino-keyboard-0.3.hex
+dfu-programmer atmega16u2 reset
+
+
+-----------------------------------------------------------------------
+
+[Erasing Keyboard firmware and writing UNO firmware]
+
+dfu-programmer atmega16u2 erase
+dfu-programmer atmega16u2 flash Arduino-Uno.hex --suppress-bootloader-mem
+dfu-programmer atmega16u2 reset
