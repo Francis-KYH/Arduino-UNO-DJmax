@@ -1,6 +1,11 @@
 # Arduino-UNO-DJmax
 RHYTHM GAME CONTROLLER WITH ARDUINO UNO
+
 Working as a keyboard
+
+
+
+
 
 
 
