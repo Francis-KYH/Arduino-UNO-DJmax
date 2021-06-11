@@ -114,7 +114,7 @@ void checkButton() {
     prevTime_L_Shift = millis();
   }
 
-/*-------------------------------------------- */
+/*----------------------a--------------------- */
   if ((millis() - prevTime_a) > waitTime_a) {
     if (currRead_a != currState_PIN_a) {
       currState_PIN_a = currRead_a;
@@ -132,7 +132,7 @@ void checkButton() {
     }
   }
 
-/*-------------------------------------------- */ 
+/*-----------------------s--------------------- */ 
   if ((millis() - prevTime_s) > waitTime_s) {
     if (currRead_s != currState_PIN_s) {
       currState_PIN_s = currRead_s;
@@ -150,7 +150,7 @@ void checkButton() {
     }
   }
 
-/*-------------------------------------------- */  
+/*----------------------d---------------------- */  
   if ((millis() - prevTime_d) > waitTime_d) {
     if (currRead_d != currState_PIN_d) {
       currState_PIN_d = currRead_d;
@@ -168,7 +168,7 @@ void checkButton() {
     }
   }
 
-/*-------------------------------------------- */
+/*----------------------L_Shift---------------------- */
   if ((millis() - prevTime_L_Shift) > waitTime_L_Shift) {
     if (currRead_L_Shift != currState_L_Shift) {
       currState_L_Shift = currRead_L_Shift;
@@ -186,7 +186,7 @@ void checkButton() {
     }
   }
 
-/*-------------------------------------------- */
+/*---------------------j----------------------- */
     if ((millis() - prevTime_j) > waitTime_j) {
     if (currRead_j != currState_PIN_j) {
       currState_PIN_j = currRead_j;
@@ -204,7 +204,7 @@ void checkButton() {
     }
   }
 
-/*-------------------------------------------- */
+/*-----------------------k--------------------- */
     if ((millis() - prevTime_k) > waitTime_k) {
     if (currRead_k != currState_PIN_k) {
       currState_PIN_k = currRead_k;
@@ -222,7 +222,7 @@ void checkButton() {
     }
   }
 
-/*-------------------------------------------- */
+/*-----------------------l--------------------- */
     if ((millis() - prevTime_l) > waitTime_l) {
     if (currRead_l != currState_PIN_l) {
       currState_PIN_l = currRead_l;
@@ -240,7 +240,7 @@ void checkButton() {
     }
   }
 
-/*-------------------------------------------- */
+/*------------------------R_Shift-------------------- */
     if ((millis() - prevTime_R_Shift) > waitTime_R_Shift) {
     if (currRead_R_Shift != currState_R_Shift) {
       currState_R_Shift = currRead_R_Shift;
